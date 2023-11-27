@@ -1,0 +1,31 @@
+Arguments: 
+  /usr/local/bin/node /home/deploy/.yarn/bin/yarn.js install
+
+PATH: 
+  /home/deploy/.yarn/bin:/home/deploy/.config/yarn/global/node_modules/.bin:/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/OpenLogic/jdk-17.0.5.8-hotspot/bin:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/cafestock.ir/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/RubyMine 2023.1.2/bin:/mnt/c/Users/cafestock.ir/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/cafestock.ir/.dotnet/tools:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/deploy/learning/ruby/depot/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /home/deploy/.yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/home/deploy/.yarn/lib/cli.js:310:30)
+      at /home/deploy/.yarn/lib/cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
